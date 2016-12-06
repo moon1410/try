@@ -23,7 +23,7 @@
          }
       
        catch (InvalidArgumentException $e) { 
-         echo ("Exception");
+         echo ($e);
       } 
    }
    else { 
