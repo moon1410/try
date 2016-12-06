@@ -12,7 +12,6 @@
    { 
 
 $to = "gabrielacioaca14@gmail.com";
-$to=  $mail;
 $subject = 'Starea vremii';
 $message = 'Buna ziua, <br /> Puteti vizualiza starea vremii accesand pagina: http://www.accuweather.com/';
 mail($to, $subject, $message);
