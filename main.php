@@ -8,7 +8,6 @@
    echo sprintf('Bun venit, %s! (<a href="%s">sign out</a>)',$user->getNickname(),UserService::createLogoutUrl('/'));    
    $mail = $user->getEmail(); 
    echo($mail);
-
       try{ 
          $to = "gabrielacioaca14@gmail.com";
          $to .= $mail;
