@@ -19,7 +19,7 @@ try
   $message = new Message();
   $message->setSender("g.oanaiuliana@gmail.com");
   $message->addTo("$mail, gitman_oana@yahoo.com");
-  $message->setSubject("Oferta zilei Elefant");
+  $message->setSubject("Informatii despre starea vremii");
   $message->setTextBody('Buna ziua, 
 Puteti vizualiza starea vremii accesand pagina: http://www.accuweather.com/');
    $message->send();
